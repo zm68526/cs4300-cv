@@ -1,0 +1,160 @@
+body {
+    text-align:center;
+    margin:0;
+}
+
+nav {
+    background-color:lightgray;
+    padding: 10px;
+    border-bottom: solid darkgray 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 3px 3px 3px;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 3px 3px 3px;
+}
+
+footer a:hover {
+    background-color: blue;
+}
+
+.splash {
+    background-color:#E3F4F4;
+    border-bottom: solid lightgreen 5px;
+    padding: 5px 0 250px 0;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.card {
+    width: 300px;
+    background-color: beige;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+}
+
+#Logo {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+}
+
+#Headshot {
+    position: absolute;
+    top: 175px;
+    left: 600px;
+    border: solid green 2px;
+}
+
+.main a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    padding: 3px 3px 3px 3px;
+}
+
+.main a:hover {
+    background-color: lightblue;
+}
+
+.main {
+    padding: 10px 0 10px 0;
+    background-color:cornsilk;
+    border-bottom: solid tan 5px;
+}
+
+h1 {
+    color:blue;
+}
+
+h2 {
+    color:darkgreen;
+}
+
+hr {
+    border: dotted tan 6px;
+    border-bottom: none;
+    margin: 30px auto;
+    width:30%;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    background-color: #0070e0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+textarea {
+    border: 1px solid tan;
+}
+
+input {
+    border: 1px solid tan;
+}
+
+.form-container  {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
