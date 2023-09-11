@@ -1,6 +1,7 @@
 body {
     text-align:center;
     margin:0;
+    /* font-family: 'Overpass', 'Nunito', 'sans-serif'; */
 }
 
 nav {
@@ -109,10 +110,12 @@ footer a:hover {
 }
 
 h1 {
+    font-family: 'Nunito', 'Overpass', 'sans-serif';
     color:blue;
 }
 
 h2 {
+    font-family:'Overpass', 'Nunito', 'sans-serif';
     color:darkgreen;
 }
 
